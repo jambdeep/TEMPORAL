@@ -1,0 +1,133 @@
+// *******************************
+// Asignación de colores
+// *******************************
+$principal:  #419A1C;
+$secundario: #384452;
+$terciario:  #BBFF9C;
+$texto:        black;
+
+/*--------------------------------
+Tipografía
+---------------------------------*/
+// Normalizar a REMS
+html{
+    font-size: 62.5%; /*Normalizar REMS*/
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.6rem;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.5rem;
+    margin: 5rem 0rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2.5rem;
+}
+
+
+
+/*--------------------------------
+Estilos de color
+---------------------------------*/
+// Estilo de color principal
+.bg-primary{
+    background-color: $principal !important;
+}
+.text-primary{
+    color: $principal !important;
+}
+// Estilo de color secundario
+.bg-secondary{
+    background-color: $secundario !important;
+}
+// Estilos de color terciario
+.text-success{
+    color: $terciario !important;
+}
+
+/*--------------------------------
+Estilos de barra-redes
+---------------------------------*/
+#barra-redes i{
+    color: $terciario;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+/*--------------------------------
+Estilos de menu de navegación
+---------------------------------*/
+.navbar{
+    padding: 0rem !important;
+}
+.navbar-nav a{
+    color: $terciario;
+    font-size: 2rem;
+    padding-right: 3rem !important;
+}
+ 
+/*--------------------------------
+Estilos de slogan
+---------------------------------*/
+.fondo-header{
+    background-image: url(../images/principal01.jpg); 
+    background-position: center;   
+    background-size: cover;
+    height: 50rem;
+}
+
+#slogan{
+    text-shadow: -5rem -3rem 0.5rem gray;
+}
+
+/*--------------------------------
+Estilos de porque elegirnos
+---------------------------------*/
+#porque-elegirnos i{
+    font-size: 5rem;
+    text-shadow: -.2rem -.4rem .3rem black;
+}
+
+/*--------------------------------
+Estilos de Servicios
+---------------------------------*/
+.btn-success{
+    background-color: $principal;
+}
+.oferta .card-text{
+    font-size: 1.8rem;    
+}
+
+.oferta h3{
+    text-transform: uppercase;
+    margin: 1.5rem;
+}
+
+.oferta p{    
+    margin-top: 3rem;
+}
+
+/*--------------------------------
+Estilos de Animación
+---------------------------------*/
+#animacion{
+    height: 50rem;
+    background: $principal;
+}
+
+.text-1{
+    font-size: 11rem;
+    color: yellow;
+}
+
+.text-1 span{
+    background-color: red;
+    display: inline-block;
+}

@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/*--------------------------------
+Tipografía
+---------------------------------*/
+html {
+  font-size: 62.5%; /*Normalizar REMS*/
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin: 5rem 0rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+/*--------------------------------
+Estilos de color
+---------------------------------*/
+.bg-primary {
+  background-color: #419A1C !important;
+}
+
+.text-primary {
+  color: #419A1C !important;
+}
+
+.bg-secondary {
+  background-color: #384452 !important;
+}
+
+.text-success {
+  color: #BBFF9C !important;
+}
+
+/*--------------------------------
+Estilos de barra-redes
+---------------------------------*/
+#barra-redes i {
+  color: #BBFF9C;
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+/*--------------------------------
+Estilos de menu de navegación
+---------------------------------*/
+.navbar {
+  padding: 0rem !important;
+}
+
+.navbar-nav a {
+  color: #BBFF9C;
+  font-size: 2rem;
+  padding-right: 3rem !important;
+}
+
+/*--------------------------------
+Estilos de slogan
+---------------------------------*/
+.fondo-header {
+  background-image: url(../images/principal01.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+}
+
+#slogan {
+  text-shadow: -5rem -3rem 0.5rem gray;
+}
+
+/*--------------------------------
+Estilos de porque elegirnos
+---------------------------------*/
+#porque-elegirnos i {
+  font-size: 5rem;
+  text-shadow: -0.2rem -0.4rem 0.3rem black;
+}
+
+/*--------------------------------
+Estilos de Servicios
+---------------------------------*/
+.btn-success {
+  background-color: #419A1C;
+}
+
+.oferta .card-text {
+  font-size: 1.8rem;
+}
+
+.oferta h3 {
+  text-transform: uppercase;
+  margin: 1.5rem;
+}
+
+.oferta p {
+  margin-top: 3rem;
+}
+
+/*--------------------------------
+Estilos de Animación
+---------------------------------*/
+#animacion {
+  height: 50rem;
+  background: #419A1C;
+}
+
+.text-1 {
+  font-size: 11rem;
+  color: yellow;
+}
+
+.text-1 span {
+  background-color: red;
+  display: inline-block;
+}/*# sourceMappingURL=estilos.css.map */

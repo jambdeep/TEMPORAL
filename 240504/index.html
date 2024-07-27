@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Carga de hojas de estilos -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Iconos de BS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Fuente de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Plantilla de normalize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <title>Repara BIT version BS</title>
+</head>
+<body>
+
+    <header>
+        <section id="barra-redes">
+            <div class="container-fluid bg-secondary text-center">
+                <div class="row justify-content-sm-between">
+                    <div class="col-12 col-sm-auto text-success">
+                        <i class="bi bi-pin-map-fill"></i><span>Av. Principal #222, C.P. 0880</span>
+                    </div>
+                    <div class="col-12 col-sm-auto">
+                        <ul class="list-unstyled d-inline-flex">
+                            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="datos-generales" class="d-none d-md-block">
+            <div class="container-fluid bg-primary">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto">
+                        <img src="./images/logo2.png" alt="logo" width="100" height="auto">
+                    </div>
+                    <div class="col-auto">
+                        <i class="bi bi-telephone-outbound-fill"><span>+5511223344</span></i>
+                    </div>
+                    <div class="col-auto">
+                        <i class="bi bi-envelope-at-fill"><span>reparabit@gmail.com</span></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid bg-secondary">  
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="">Inicio</a>
+                        <a class="nav-link" href="">Servicios</a>
+                        <a class="nav-link" href="">Precios</a>
+                        <a class="nav-link" href="">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>   
+        
+        <section id="animacion" class="fondo-header d-flex justify-content-center align-items-center">
+            <div class="row text-center">
+                <div class="col-12">
+                    <p class="text-1">Repara Bit</p>
+                    <p class="text-2">Nosotros lo reparamos</p>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <section class="container" id="porque-elegirnos">
+        <h2 class="text-center">¿Por qué elegirnos?</h2>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card h-100">
+                    <div class="car-body text-center">
+                        <i class="bi bi-person-workspace text-primary"></i>
+                        <h3 class="card-title">Técnicos capacitados</h3>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, necessitatibus!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card h-100">
+                    <div class="car-body text-center">
+                        <i class="text-primary bi bi-cash-coin"></i>
+                        <h3 class="card-title">Calidad y Atención</h3>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, necessitatibus!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card h-100">
+                    <div class="car-body text-center">
+                        <i class="text-primary bi bi-shield-fill-check"></i>
+                        <h3 class="card-title">Garantía Inmediata</h3>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, necessitatibus!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card h-100">
+                    <div class="car-body text-center">
+                        <i class="text-primary bi bi-house-gear-fill"></i>
+                        <h3 class="card-title">Servicio a Domicilio</h3>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, necessitatibus!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container" id="servicios">
+        <h2 class="text-center">Nuestros Servicios</h2>
+        <div class="row">
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="oferta card h-100">
+                    <img class="card-img-top" src="./images/servicio01.jpg" alt="servicio01">
+                    <div class="card-body text-center d-grid align-items-end">
+                        <h3 class="card-title">Recuperación de información</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero minus totam quos laborum quibusdam repudiandae at voluptatem esse error.</div>
+                        <p class="text-primary">Costos aproximados: $500-$10,000</p>
+                        <a class="btn btn-success" href="#">Detalles</a>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="oferta card h-100">
+                    <img class="card-img-top" src="./images/servicio02.jpg" alt="servicio02">
+                    <div class="card-body text-center d-grid align-items-end">
+                        <h3 class="card-title">Mantenimiento de Sistemas</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero minus totam quos laborum quibusdam repudiandae at voluptatem esse error.</div>
+                        <p class="text-primary">Costos aproximados: $2000-$20,000</p>
+                        <a class="btn btn-success" href="#">Detalles</a>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="oferta card h-100">
+                    <img class="card-img-top" src="./images/servicio03.jpg" alt="servicio03">
+                    <div class="card-body text-center d-grid align-items-end">
+                        <h3 class="card-title">Actualización del Equipo</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero minus totam quos laborum quibusdam repudiandae at voluptatem esse error.</div>
+                        <p class="text-primary">Costos aproximados: $500-$100,000</p>
+                        <a class="btn btn-success" href="#">Detalles</a>                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="oferta card h-100">
+                    <img class="card-img-top" src="./images/servicio04.png" alt="servicio04">
+                    <div class="card-body text-center d-grid align-items-end">
+                        <h3 class="card-title">Zona Gamer</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero minus totam quos laborum quibusdam repudiandae at voluptatem esse error.</div>
+                        <p class="text-primary">Costos aproximados: $1,500-$120,000</p>
+                        <a class="btn btn-success" href="#">Detalles</a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Carga de scripts -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/gsap.min.js"></script>
+    <script src="./js/mis-scripts.js"></script>
+</body>
+</html>
